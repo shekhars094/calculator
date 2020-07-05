@@ -1,11 +1,16 @@
 import React from "react";
 
-const Keypad = () => {
+const Keypad = (props) => {
 	return (
 		<div>
 			<div
 				className="container"
 				style={{ width: "35%", marginTop: "30vh" }}>
+				<div className="row">
+					<div className="col border text-center border-primary">
+						{props.result || 0}
+					</div>
+				</div>
 				<div className="row">
 					<div className="col-3 border text-center bg-primary">1</div>
 					<div className="col-3 border text-center bg-primary">2</div>

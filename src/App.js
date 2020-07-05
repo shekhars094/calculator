@@ -4,7 +4,7 @@ import Keypad from "./components/Keypad";
 
 function App() {
 	return (
-		<div>
+		<div className="container">
 			<Keypad />
 		</div>
 	);
